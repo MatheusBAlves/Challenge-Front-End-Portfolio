@@ -1,0 +1,25 @@
+:root {
+    font-size: 10px;
+    --azul: #2A7aE4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans;
+    font-weight: 400;
+    color: #464646;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.wrapper {
+    width: min(135rem, 95%);
+    padding: 6rem 1rem;
+    margin: 0 auto;
+}

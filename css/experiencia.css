@@ -1,0 +1,83 @@
+.experiencia__title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.experiencia__projetos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10rem;
+}
+
+.experiencia__projetos__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+.experiencia__projetos__box:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+.experiencia__projetos__foto {
+    width: 65%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.experiencia__projetos__informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projetos__informacoes__titulo {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.projetos__informacoes__descricao {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-block: .8rem;
+}
+
+.projetos__informacoes__link {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.projetos__informacoes__botao{
+    padding: 1.2rem 1.6rem;
+    border: 1px solid var(--azul);
+    font-size: 1.6rem;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.projetos__informacoes__botao:hover{
+    transform: scale(1.2);
+}
+
+.projetos__informacoes__botao--repositorio{
+    color: var(--azul);
+}
+
+.projetos__informacoes__botao--demo{
+    background: var(--azul);
+    color: #FFF;
+}
+
+@media (max-width: 768px) {
+    .experiencia__projetos__box,
+    .experiencia__projetos__box:nth-child(2n) {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .experiencia__projetos__foto {
+        width: 100%;
+    }
+}

@@ -1,0 +1,50 @@
+.skills .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__title {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.skills__line {
+    margin-top: 3.2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__box {
+    background: #FFF;
+    width: 176px;
+    height: 174px;
+    padding: 1.6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.skills__box svg {
+    width: 3.2rem;
+    fill: #2a7ae4;
+    margin-bottom: .5rem;
+}
+
+.skills__name {
+    font-size: 1.6rem;
+    font-weight: 700; 
+}
+
+
+@media (max-width: 768px) {
+    .skills__box {
+        width: 224px;
+        height: 118px;
+    }
+}

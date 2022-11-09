@@ -1,0 +1,128 @@
+.contato {
+    background: #EAF2FD;
+}
+
+.contato--esquerda {
+    width: 50%;
+}
+
+.contato .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contato__text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contato__title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.contato__subtext {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.contato__form {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input,
+.textarea {
+    box-sizing: border-box;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 6rem;
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+    border-radius: 1rem;
+    border: none;
+    resize: none;
+    transition: border .5s ease-in-out;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.input-label,
+.textarea-label {
+    position: absolute;
+    top: 2rem;
+    left: 0.5rem;
+    font-size: 1.8rem;
+    transition: all .25s;
+    color: #a2a2a2;
+}
+
+.textarea {
+    height: 10rem;
+    padding-top: 2rem;
+}
+
+.input:not(:placeholder-shown) + .input-label, .input:focus + .input-label,
+.textarea:not(:placeholder-shown) + .textarea-label, .textarea:focus + .textarea-label {
+    font-size: 1.4rem;
+    top: 0.25rem;
+    transition: all .25s;
+}
+
+.textarea:focus,
+.input:focus {
+    outline: none;
+    border-bottom: 2px solid #2A7AE4;
+} 
+
+.textarea-container {
+    position: relative;
+}
+
+.contato__form button {
+    border: none;
+    width: 16rem;
+    height: 5rem;
+    padding: 1.6rem;
+    background: #2A7AE4;
+    font-size: 1.6rem;
+    color: #FFF;
+    transition: background-color .5s;
+}
+
+.contato__form button:hover {
+    background: #1a6bd5;
+    cursor: pointer;
+}
+
+@media (max-width: 1030px) {
+    .contato--esquerda {
+        display: none;
+    }
+
+    .contato__text {
+        width: 100%;
+    }
+
+    .contato__form {
+        gap: 2rem;
+    }
+}

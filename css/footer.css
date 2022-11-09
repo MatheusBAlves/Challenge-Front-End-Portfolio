@@ -1,0 +1,23 @@
+.rodape {
+    height: 3rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.rodape p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.rodape p a {
+    color: hsl(0, 0%, 10%);
+    font-weight: 600;
+}
+
+.rodape p a:hover {
+    text-decoration: underline;
+}
