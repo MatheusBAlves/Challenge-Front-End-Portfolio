@@ -482,53 +482,72 @@
             <form action="" class="contato__form">
               <div class="input-container">
                 <input
-                  type="text"
-                  name="nome"
-                  id="nome"
                   class="input"
+                  data-type="name"
+                  id="nome"
+                  maxlength="50"
+                  name="nome"
                   placeholder="Nome"
                   required
+                  type="text"
                 />
                 <label for="nome" class="input-label">Nome</label>
+                <span class="input__message__error"
+                  >Este campo não está válido</span
+                >
               </div>
 
               <div class="input-container">
                 <input
-                  type="email"
-                  name="email"
-                  id="email"
                   class="input"
+                  data-type="email"
+                  id="email"
+                  name="email"
                   placeholder="Email"
                   required
+                  type="email"
                 />
                 <label for="email" class="input-label">Email</label>
+                <span class="input__message__error"
+                  >Este campo não está válido</span
+                >
               </div>
 
               <div class="input-container">
                 <input
-                  type="text"
-                  name="assunto"
-                  id="assunto"
                   class="input"
+                  data-type="topic"
+                  id="topic"
+                  maxlength="50"
+                  name="topic"
                   placeholder="Assunto"
                   required
+                  type="text"
                 />
-                <label for="assunto" class="input-label">Assunto</label>
+                <label for="topic" class="input-label">Assunto</label>
+                <span class="input__message__error"
+                  >Este campo não está válido</span
+                >
               </div>
 
               <div class="textarea-container">
                 <textarea
-                  name="mensagem"
-                  id="mensagem"
-                  cols="40"
-                  rows="5"
-                  placeholder="Mensagem"
                   class="textarea"
+                  data-type="message"
+                  cols="40"
+                  id="message"
+                  maxlength="300"
+                  name="message"
+                  placeholder="Mensagem"
+                  rows="5"
                   required
                 ></textarea>
-                <label for="mensagem" class="textarea-label">Mensagem</label>
+                <label for="message" class="textarea-label">Mensagem</label>
+                <span class="textarea__message__error"
+                  >Este campo não está válido</span
+                >
               </div>
-              <button>Enviar mensagem</button>
+              <button class="send__button" disabled>Enviar mensagem</button>
             </form>
           </div>
         </div>
@@ -546,5 +565,7 @@
         <p>2022</p>
       </div>
     </footer>
+
+    <script type="module" src="./js/app.js"></script>
   </body>
 </html>

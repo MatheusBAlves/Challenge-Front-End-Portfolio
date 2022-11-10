@@ -57,6 +57,7 @@
     border: none;
     resize: none;
     transition: border .5s ease-in-out;
+    font-size: 1.8rem;
 }
 
 .input::placeholder,
@@ -73,6 +74,34 @@
     font-size: 1.8rem;
     transition: all .25s;
     color: #a2a2a2;
+}
+
+.input__message__error,
+.textarea__message__error {
+    display: none;
+    margin-top: .5rem;
+    font-size: 1.6rem;
+}
+.input-container--invalido .input,
+.textarea-container--invalido .textarea{
+    border: 1px solid #df2525;
+}
+
+.input-container--invalido .input-label,
+.textarea-container--invalido .textarea-label {
+    color: #df2525;
+}
+
+.input-container--invalido .input__message__error,
+.textarea-container--invalido .textarea__message__error {
+    color: #df2525;
+    display: block;
+    padding-left: .7rem;
+}
+
+.input-container--invalido .input:focus,
+.textarea-container--invalido .textarea:focus {
+    border: 1px solid #df2525;
 }
 
 .textarea {
@@ -93,11 +122,15 @@
     border-bottom: 2px solid #2A7AE4;
 } 
 
+
+
 .textarea-container {
     position: relative;
 }
 
-.contato__form button {
+
+
+.send__button {
     border: none;
     width: 16rem;
     height: 5rem;
@@ -108,10 +141,16 @@
     transition: background-color .5s;
 }
 
-.contato__form button:hover {
+.send__button:hover {
     background: #1a6bd5;
     cursor: pointer;
 }
+
+.send__button[disabled] {
+    filter: grayscale(1);
+    cursor: default;
+}
+
 
 @media (max-width: 1030px) {
     .contato--esquerda {
@@ -126,3 +165,6 @@
         gap: 2rem;
     }
 }
+
+
+/* TODO fazer componente dos inputs
