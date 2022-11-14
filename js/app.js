@@ -8,13 +8,13 @@ inputs.forEach(input => {
     input.addEventListener('blur', (evento) => {
         valida(evento.target);
     });
-})
+});
 
 textareas.forEach(textarea => {
     textarea.addEventListener('blur', (evento) => {
         valida(evento.target);
     });
-})
+});
 
 inputs.forEach(input => {
     input.addEventListener('blur', (evento) => {
@@ -24,5 +24,4 @@ inputs.forEach(input => {
             button.disabled = false;
         }
     });
-})
-
+});

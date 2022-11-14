@@ -36,12 +36,13 @@
 .projetos__informacoes__titulo {
     font-size: 2.2rem;
     font-weight: 700;
+    margin-bottom: 0.8rem;
 }
 
 .projetos__informacoes__descricao {
     font-size: 1.6rem;
     font-weight: 500;
-    margin-block: .8rem;
+    margin-bottom: .8rem;
 }
 
 .projetos__informacoes__link {
