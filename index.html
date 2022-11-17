@@ -495,19 +495,19 @@
               possível.
             </h3>
 
-            <form action="" class="contato__form">
+            <form method="POST" action="https://formsubmit.co/matheus.balves@outlook.com" class="contato__form">
               <div class="input-container">
                 <input
                   class="input"
                   data-type="name"
-                  id="nome"
+                  id="name"
                   maxlength="50"
-                  name="nome"
+                  name="name"
                   placeholder="Nome"
                   required
                   type="text"
                 />
-                <label for="nome" class="input-label">Nome</label>
+                <label for="name" class="input-label">Nome</label>
                 <span class="input__message__error"
                   >Este campo não está válido</span
                 >
@@ -563,7 +563,9 @@
                   >Este campo não está válido</span
                 >
               </div>
-              <button class="send__button" disabled>Enviar mensagem</button>
+              <input type="hidden" name="_captcha" value="false">
+              <!-- <input type="hidden" name="_next" value=""> -->
+              <button class="send__button" disabled type="submit">Enviar mensagem</button>
             </form>
           </div>
         </div>
