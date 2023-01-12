@@ -9,6 +9,13 @@
     flex-wrap: wrap;
 }
 
+.formacao__cursos__box {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .formacao__title {
     font-size: 3.2rem;
     font-weight: 700;
@@ -16,6 +23,9 @@
     margin-bottom: 2.5rem;
 }
 
+.formacao__cursos__list {
+    width: 25rem;
+}
 
 .formacao__cursos__list__img {
     width: 250px;
@@ -41,6 +51,7 @@
 }
 
 .formacao__cursos__list__subtitle {
+    width: 100%;
     font-size: 1.6rem;
     font-weight: 500;
 }
