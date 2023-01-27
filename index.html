@@ -1,690 +1,555 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Matheus Alves</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="shortcut icon" href="./assets/ghost-solid.svg" type="image/x-icon">
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="./css/title.css" />
-    <link rel="stylesheet" href="./css/about.css" />
-    <link rel="stylesheet" href="./css/skills.css" />
-    <link rel="stylesheet" href="./css/hobbies.css" />
-    <link rel="stylesheet" href="./css/formacao.css" />
-    <link rel="stylesheet" href="./css/experiencia.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matheus Alves</title>
 
-    <link rel="stylesheet" href="./css/contato.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-  </head>
-  <body>
-    <header class="menu wrapper">
-      <div>
-        <img src="./assets/ghost-solid.svg" class="menu__icon" />
-        <h3 class="menu__title">
-          <a href="https://github.com/MatheusBAlves" target="_blank"
-            >Matheus Alves</a
-          >
-        </h3>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="shortcut icon" href="./assets/ghost-solid.svg" type="image/x-icon">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="./css/title.css" />
+  <link rel="stylesheet" href="./css/about.css" />
+  <link rel="stylesheet" href="./css/skills.css" />
+  <link rel="stylesheet" href="./css/hobbies.css" />
+  <link rel="stylesheet" href="./css/formacao.css" />
+  <link rel="stylesheet" href="./css/badges.css" />
+  <link rel="stylesheet" href="./css/experiencia.css" />
+
+  <link rel="stylesheet" href="./css/contato.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+</head>
+
+<body>
+  <header class="menu wrapper">
+    <div>
+      <img src="./assets/ghost-solid.svg" class="menu__icon" />
+      <h3 class="menu__title">
+        <a href="https://github.com/MatheusBAlves" target="_blank">Matheus Alves</a>
+      </h3>
+    </div>
+    <nav>
+      <ul class="menu__list">
+        <li class="menu__list__item">
+          <a href="#about" class="menu__list__item__link">Sobre mim</a>
+        </li>
+        <li class="menu__list__item">
+          <a href="#skills" class="menu__list__item__link">Skills</a>
+        </li>
+        <li class="menu__list__item">
+          <a href="#hobbies" class="menu__list__item__link">Hobbies</a>
+        </li>
+        <li class="menu__list__item">
+          <a href="#formacao" class="menu__list__item__link">Formação</a>
+        </li>
+        <li class="menu__list__item">
+          <a href="#experiencias" class="menu__list__item__link">Projetos</a>
+        </li>
+        <li class="menu__list__item menu__list__item--contato">
+          <a href="#contato" class="menu__list__item__link">matheus.balves@outlook.com</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="title">
+      <div class="wrapper">
+        <img src="https://github.com/MatheusBAlves.png" alt="Foto minha" class="title__img" />
+        <div class="title__container">
+          <h1 class="title__bio">Olá, meu nome é Matheus Alves.</h1>
+          <p class="title__subsection">
+            Sou formado em Técnico em Eletrônica.
+            <br />
+            Atualmente estou participando no projeto Oracle ONE da Alura.
+          </p>
+          <ul class="title__network">
+            <li class="title__network__item">
+              <a href="https://github.com/MatheusBAlves" target="_blank" class="title__network__item__link">Github <img
+                  src="assets/arrow.svg" /></a>
+            </li>
+            <li class="title__network__item">
+              <a href="https://www.linkedin.com/in/matheus-balves/" target="_blank"
+                class="title__network__item__link">Linkedin <img src="assets/arrow.svg" /></a>
+            </li>
+            <li class="title__network__item">
+              <a href="https://www.instagram.com/matheus.balves/" target="_blank"
+                class="title__network__item__link">Instagram <img src="assets/arrow.svg" /></a>
+            </li>
+            <li class="title__network__item">
+              <a href="./assets/curriculo.pdf" target="_blank" class="title__network__item__link">Currículo <img
+                  src="assets/arrow.svg" /></a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <nav>
-        <ul class="menu__list">
-          <li class="menu__list__item">
-            <a href="#about" class="menu__list__item__link">Sobre mim</a>
-          </li>
-          <li class="menu__list__item">
-            <a href="#skills" class="menu__list__item__link">Skills</a>
-          </li>
-          <li class="menu__list__item">
-            <a href="#hobbies" class="menu__list__item__link">Hobbies</a>
-          </li>
-          <li class="menu__list__item">
-            <a href="#formacao" class="menu__list__item__link">Formação</a>
-          </li>
-          <li class="menu__list__item">
-            <a href="#experiencias" class="menu__list__item__link">Projetos</a>
-          </li>
-          <li class="menu__list__item menu__list__item--contato">
-            <a href="#contato" class="menu__list__item__link"
-              >matheus.balves@outlook.com</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
+    </section>
 
-    <main>
-      <section class="title">
-        <div class="wrapper">
-          <img
-            src="https://github.com/MatheusBAlves.png"
-            alt="Foto minha"
-            class="title__img"
-          />
-          <div class="title__container">
-            <h1 class="title__bio">Olá, meu nome é Matheus Alves.</h1>
-            <p class="title__subsection">
-              Sou formado em Técnico em Eletrônica.
-              <br />
-              Atualmente estou participando no projeto Oracle ONE da Alura.
-            </p>
-            <ul class="title__network">
-              <li class="title__network__item">
-                <a
-                  href="https://github.com/MatheusBAlves"
-                  target="_blank"
-                  class="title__network__item__link"
-                  >Github <img src="assets/arrow.svg"
-                /></a>
+    <section class="about" id="about">
+      <div class="wrapper">
+        <h3 class="about__title">Sobre mim</h3>
+        <p class="about__paragraph">
+          Tenho 19 anos, sou técnico em eletrônica e estou cursando Análise e Desenvolvimento de Sistemas na Unisinos.
+        </p>
+        <p class="about__paragraph">
+          Moro em Sapiranga - Rio Grande do Sul.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h3 class="skills__title">Skills</h3>
+        <div class="skills__line">
+          <div class="skills__box">
+            <ul>
+              <li class="skills__img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+                </svg>
               </li>
-              <li class="title__network__item">
-                <a href="https://www.linkedin.com/in/matheus-balves/" target="_blank" class="title__network__item__link"
-                  >Linkedin <img src="assets/arrow.svg"
-                /></a>
+              <li class="skills__name">HTML 5</li>
+            </ul>
+          </div>
+          <div class="skills__box">
+            <ul>
+              <li class="skills__img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+                </svg>
               </li>
-              <li class="title__network__item">
-                <a href="https://www.instagram.com/matheus.balves/" target="_blank" class="title__network__item__link"
-                  >Instagram <img src="assets/arrow.svg"
-                /></a>
+              <li class="skills__name">JavaScript</li>
+            </ul>
+          </div>
+          <div class="skills__box">
+            <ul>
+              <li class="skills__img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M277.74 312.9c9.8-6.7 23.4-12.5 23.4-12.5s-38.7 7-77.2 10.2c-47.1 3.9-97.7 4.7-123.1 1.3-60.1-8 33-30.1 33-30.1s-36.1-2.4-80.6 19c-52.5 25.4 130 37 224.5 12.1zm-85.4-32.1c-19-42.7-83.1-80.2 0-145.8C296 53.2 242.84 0 242.84 0c21.5 84.5-75.6 110.1-110.7 162.6-23.9 35.9 11.7 74.4 60.2 118.2zm114.6-176.2c.1 0-175.2 43.8-91.5 140.2 24.7 28.4-6.5 54-6.5 54s62.7-32.4 33.9-72.9c-26.9-37.8-47.5-56.6 64.1-121.3zm-6.1 270.5a12.19 12.19 0 0 1-2 2.6c128.3-33.7 81.1-118.9 19.8-97.3a17.33 17.33 0 0 0-8.2 6.3 70.45 70.45 0 0 1 11-3c31-6.5 75.5 41.5-20.6 91.4zM348 437.4s14.5 11.9-15.9 21.2c-57.9 17.5-240.8 22.8-291.6.7-18.3-7.9 16-19 26.8-21.3 11.2-2.4 17.7-2 17.7-2-20.3-14.3-131.3 28.1-56.4 40.2C232.84 509.4 401 461.3 348 437.4zM124.44 396c-78.7 22 47.9 67.4 148.1 24.5a185.89 185.89 0 0 1-28.2-13.8c-44.7 8.5-65.4 9.1-106 4.5-33.5-3.8-13.9-15.2-13.9-15.2zm179.8 97.2c-78.7 14.8-175.8 13.1-233.3 3.6 0-.1 11.8 9.7 72.4 13.6 92.2 5.9 233.8-3.3 237.1-46.9 0 0-6.4 16.5-76.2 29.7zM260.64 353c-59.2 11.4-93.5 11.1-136.8 6.6-33.5-3.5-11.6-19.7-11.6-19.7-86.8 28.8 48.2 61.4 169.5 25.9a60.37 60.37 0 0 1-21.1-12.8z" />
+                </svg>
               </li>
-              <li class="title__network__item">
-                <a href="./assets/curriculo.pdf" target="_blank" class="title__network__item__link"
-                  >Currículo <img src="assets/arrow.svg"
-                /></a>
+              <li class="skills__name">Java</li>
+            </ul>
+          </div>
+          <div class="skills__box">
+            <ul>
+              <li class="skills__img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" />
+                </svg>
               </li>
+              <li class="skills__name">CSS</li>
             </ul>
           </div>
         </div>
-      </section>
-
-      <section class="about" id="about">
-        <div class="wrapper">
-          <h3 class="about__title">Sobre mim</h3>
-          <p class="about__paragraph">
-            Tenho 19 anos, sou técnico em eletrônica e estou cursando Análise e Desenvolvimento de Sistemas na Unisinos.
-          </p>
-          <p class="about__paragraph">
-            Moro em Sapiranga - Rio Grande do Sul.
-          </p>
-        </div>
-      </section>
-
-      <section class="skills" id="skills">
-        <div class="wrapper">
-          <h3 class="skills__title">Skills</h3>
-          <div class="skills__line">
-            <div class="skills__box">
-              <ul>
-                <li class="skills__img">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"
-                    />
-                  </svg>
-                </li>
-                <li class="skills__name">HTML 5</li>
-              </ul>
-            </div>
-            <div class="skills__box">
-              <ul>
-                <li class="skills__img">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"
-                    />
-                  </svg>
-                </li>
-                <li class="skills__name">JavaScript</li>
-              </ul>
-            </div>
-            <div class="skills__box">
-              <ul>
-                <li class="skills__img">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M277.74 312.9c9.8-6.7 23.4-12.5 23.4-12.5s-38.7 7-77.2 10.2c-47.1 3.9-97.7 4.7-123.1 1.3-60.1-8 33-30.1 33-30.1s-36.1-2.4-80.6 19c-52.5 25.4 130 37 224.5 12.1zm-85.4-32.1c-19-42.7-83.1-80.2 0-145.8C296 53.2 242.84 0 242.84 0c21.5 84.5-75.6 110.1-110.7 162.6-23.9 35.9 11.7 74.4 60.2 118.2zm114.6-176.2c.1 0-175.2 43.8-91.5 140.2 24.7 28.4-6.5 54-6.5 54s62.7-32.4 33.9-72.9c-26.9-37.8-47.5-56.6 64.1-121.3zm-6.1 270.5a12.19 12.19 0 0 1-2 2.6c128.3-33.7 81.1-118.9 19.8-97.3a17.33 17.33 0 0 0-8.2 6.3 70.45 70.45 0 0 1 11-3c31-6.5 75.5 41.5-20.6 91.4zM348 437.4s14.5 11.9-15.9 21.2c-57.9 17.5-240.8 22.8-291.6.7-18.3-7.9 16-19 26.8-21.3 11.2-2.4 17.7-2 17.7-2-20.3-14.3-131.3 28.1-56.4 40.2C232.84 509.4 401 461.3 348 437.4zM124.44 396c-78.7 22 47.9 67.4 148.1 24.5a185.89 185.89 0 0 1-28.2-13.8c-44.7 8.5-65.4 9.1-106 4.5-33.5-3.8-13.9-15.2-13.9-15.2zm179.8 97.2c-78.7 14.8-175.8 13.1-233.3 3.6 0-.1 11.8 9.7 72.4 13.6 92.2 5.9 233.8-3.3 237.1-46.9 0 0-6.4 16.5-76.2 29.7zM260.64 353c-59.2 11.4-93.5 11.1-136.8 6.6-33.5-3.5-11.6-19.7-11.6-19.7-86.8 28.8 48.2 61.4 169.5 25.9a60.37 60.37 0 0 1-21.1-12.8z"
-                    />
-                  </svg>
-                </li>
-                <li class="skills__name">Java</li>
-              </ul>
-            </div>
-            <div class="skills__box">
-              <ul>
-                <li class="skills__img">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"
-                    />
-                  </svg>
-                </li>
-                <li class="skills__name">CSS</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="hobbies" id="hobbies">
-        <div class="wrapper">
-          <h3 class="hobbies__title">Hobbies</h3>
-          <div class="hobbies__line">
-            <div class="hobbies__box">
-              <ul>
-                <li class="hobbies__img">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"
-                    />
-                  </svg>
-                </li>
-                <li class="hobbies__name">Ouvir música</li>
-              </ul>
-            </div>
-            <div class="hobbies__box">
-              <ul>
-                <li class="hobbies__img">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-                    <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M64 64V352H576V64H64zM0 64C0 28.7 28.7 0 64 0H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM128 448H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
-                    />
-                  </svg>
-                </li>
-                <li class="hobbies__name">Olhar séries</li>
-              </ul>
-            </div>
-            <div class="hobbies__box">
-              <ul>
-                <li class="hobbies__img">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M465 7c-9.4-9.4-24.6-9.4-33.9 0L383 55c-2.4 2.4-4.3 5.3-5.5 8.5l-15.4 41-77.5 77.6c-45.1-29.4-99.3-30.2-131 1.6c-11 11-18 24.6-21.4 39.6c-3.7 16.6-19.1 30.7-36.1 31.6c-25.6 1.3-49.3 10.7-67.3 28.6C-16 328.4-7.6 409.4 47.5 464.5s136.1 63.5 180.9 18.7c17.9-17.9 27.4-41.7 28.6-67.3c.9-17 15-32.3 31.6-36.1c15-3.4 28.6-10.5 39.6-21.4c31.8-31.8 31-85.9 1.6-131l77.6-77.6 41-15.4c3.2-1.2 6.1-3.1 8.5-5.5l48-48c9.4-9.4 9.4-24.6 0-33.9L465 7zM208 352c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48z"
-                    />
-                  </svg>
-                </li>
-                <li class="hobbies__name">Tocar violão</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="formacao" id="formacao">
-        <div class="wrapper">
-          <h2 class="formacao__title">Formação acadêmica</h2>
-          <div class="formacao__cursos">
-            <div class="formacao__cursos__box">
-              <ul class="formacao__cursos__list">
-                <li class="formacao__cursos__list__img">
-                  <img src="./assets/logo-cimol.svg" alt="" />
-                </li>
-                <li class="formacao__cursos__list__title">
-                  <h4>Técnico em Eletrônica</h4>
-                </li>
-                <li class="formacao__cursos__list__subtitle">CIMOL - Escola Técnica Estadual Monteiro Lobato</li>
-                <li class="formacao__cursos__list__subtitle">2019 - 2022</li>
-              </ul>
-              <ul class="formacao__cursos__list">
-                <li class="formacao__cursos__list__img">
-                  <img src="./assets/unisinos.jpg" alt="" />
-                </li>
-                <li class="formacao__cursos__list__title">
-                  <h4>Análise e Desenvolvimento de Sistemas</h4>
-                </li>
-                <li class="formacao__cursos__list__subtitle">Unisinos</li>
-                <li class="formacao__cursos__list__subtitle">2022 - atual</li>
-              </ul>
-            </div>
-
-        </div>
-      </section>
-
-      <section class="experiencias" id="experiencias">
-        <div class="wrapper">
-          <h2 class="experiencia__title">Experiência profissional</h2>
-          <div class="experiencia__projetos">
-            <div class="experiencia__projetos__box">
-              <img
-                src="./assets/images/DoctorCare.png"
-                alt="Doctor Care"
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  DoctorCare
-                </h3>
-                <p class="projetos__informacoes__tecnologias">HTML - CSS - JS</p>
-                <p class="projetos__informacoes__descricao">
-                  Curso em Video
-                </p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/doctorcare"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                    >Repositório</a
-                  >
-                  <a
-                    href="https://matheusbalves.github.io/doctorcare/"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--demo"
-                    target="_blank"
-                    >Ver demo</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="experiencia__projetos__box">
-              <img
-                src="./assets/images/AutomacaoResidencialEsp32.png"
-                alt="Automação residencial"
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  Automação Residencial
-                </h3>
-                <p class="projetos__informacoes__tecnologias">C - HTML - CSS</p>
-                <p class="projetos__informacoes__descricao">
-                  com ESP32
-                </p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/AutomacaoResidencialEsp32"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                    >Repositório</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="experiencia__projetos__box">
-              <img
-                src="assets/images/ControladorRGBa.png"
-                alt=""
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  Controlador RGBa
-                </h3>
-                <p class="projetos__informacoes__tecnologias">HTML - CSS - JS</p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/LedRGB"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                  >
-                    Repositório
-                  </a>
-                  <a
-                    href="https://matheusbalves.github.io/LedRGB/"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--demo"
-                    target="_blank"
-                    >Ver demo</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="experiencia__projetos__box">
-              <img
-                src="assets/images/ProjetoAndroid.png"
-                alt=""
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  Projeto Android
-                </h3>
-                <p class="projetos__informacoes__tecnologias">HTML - CSS</p>
-                <p class="projetos__informacoes__descricao">
-                  Curso em Video
-                </p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/projeto-android"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                  >
-                    Repositório
-                  </a>
-                  <a
-                    href="https://matheusbalves.github.io/projeto-android/"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--demo"
-                    target="_blank"
-                    >Ver demo</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="experiencia__projetos__box">
-              <img
-                src="assets/images/ProjetoCordel.png"
-                alt=""
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  Projeto Cordel
-                </h3>
-                <p class="projetos__informacoes__tecnologias">HTML - CSS</p>
-                <p class="projetos__informacoes__descricao">
-                  Curso em Video
-                </p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/projeto-cordel"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                  >
-                    Repositório
-                  </a>
-                  <a
-                    href="https://matheusbalves.github.io/projeto-cordel/"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--demo"
-                    target="_blank"
-                    >Ver demo</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="experiencia__projetos__box">
-              <img
-                src="assets/images/VerificadorDeSenhas.png"
-                alt=""
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  Verificador de Senhas
-                </h3>
-                <p class="projetos__informacoes__tecnologias">HTML - CSS - JS</p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/VerificadorDeSenhasJS"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                  >
-                    Repositório
-                  </a>
-                  <a
-                    href="https://matheusbalves.github.io/VerificadorDeSenhasJS/"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--demo"
-                    target="_blank"
-                    >Ver demo</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="experiencia__projetos__box">
-              <img
-                src="assets/images/DecodificadorDeTexto.png"
-                alt=""
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  Decodificador de texto
-                </h3>
-                <p class="projetos__informacoes__tecnologias">HTML - CSS - JS</p>
-                <p class="projetos__informacoes__descricao">
-                  Challenge Alura Decodificador
-                </p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/Challenge-one-decodificador"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                  >
-                    Repositório
-                  </a>
-                  <a
-                    href="https://matheusbalves.github.io/Challenge-one-decodificador/"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--demo"
-                    target="_blank"
-                    >Ver demo</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="experiencia__projetos__box">
-              <img
-                src="assets/images/JogoDaForca.png"
-                alt=""
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  Jogo da Forca
-                </h3>
-                <p class="projetos__informacoes__tecnologias">HTML - CSS - JS</p>
-                <p class="projetos__informacoes__descricao">
-                  Challenge Alura Jogo da Forca
-                </p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/Jogo-da-forca"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                  >
-                    Repositório
-                  </a>
-                  <a
-                    href="https://matheusbalves.github.io/Jogo-da-forca/"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--demo"
-                    target="_blank"
-                    >Ver demo</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="experiencia__projetos__box">
-              <img
-                src="assets/images/ConversorDeMoedaETemperatura.png"
-                alt=""
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  Conversor de Moeda e Temperatura
-                </h3>
-                <p class="projetos__informacoes__tecnologias">Java</p>
-                <p class="projetos__informacoes__descricao">
-                  Challenge Alura Conversor de Moeda
-                </p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/ConversorDeMoedas"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                  >
-                    Repositório
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="experiencia__projetos__box">
-              <img
-                src="./assets/images/BuscadordeCEP.png"
-                alt=""
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  Buscador de CEP
-                </h3>
-                <p class="projetos__informacoes__tecnologias">React</p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/BuscadorDeCEP"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                  >
-                    Repositório
-                  </a>
-                  <a
-                    href="https://buscador-de-cep-ecru-three.vercel.app/"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--demo"
-                    target="_blank"
-                    >Ver demo</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="experiencia__projetos__box">
-              <img
-                src="./assets/images/CityWeather.png"
-                alt=""
-                class="experiencia__projetos__foto"
-              />
-              <div class="experiencia__projetos__informacoes">
-                <h3 class="projetos__informacoes__titulo">
-                  City Weather
-                </h3>
-                <p class="projetos__informacoes__tecnologias">React</p>
-                <div class="projetos__informacoes__link">
-                  <a
-                    href="https://github.com/MatheusBAlves/city-weather"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
-                    target="_blank"
-                  >
-                    Repositório
-                  </a>
-                  <a
-                    href="https://matheusbalves.github.io/city-weather/"
-                    class="projetos__informacoes__botao projetos__informacoes__botao--demo"
-                    target="_blank"
-                    >Ver demo</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="contato" id="contato">
-        <div class="wrapper">
-          <div class="contato--esquerda">
-            <img src="./assets/unsplash_JYGnB9gTCls.svg" alt="" />
-          </div>
-          <div class="contato__text">
-            <h2 class="contato__title">Contato</h2>
-            <h3 class="contato__subtext">Quer entrar em contato comigo?</h3>
-            <h3 class="contato__subtext">
-              Preencha o formulário ao lado e entrarei em contato o mais rápido
-              possível.
-            </h3>
-
-            <form method="POST" action="https://formsubmit.co/matheus.balves@outlook.com" class="contato__form">
-              <div class="input-container">
-                <input
-                  class="input"
-                  data-type="name"
-                  id="name"
-                  maxlength="50"
-                  name="name"
-                  placeholder="Nome"
-                  required
-                  type="text"
-                />
-                <label for="name" class="input-label">Nome</label>
-                <span class="input__message__error"
-                  >Este campo não está válido</span
-                >
-              </div>
-
-              <div class="input-container">
-                <input
-                  class="input"
-                  data-type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                  required
-                  type="email"
-                />
-                <label for="email" class="input-label">Email</label>
-                <span class="input__message__error"
-                  >Este campo não está válido</span
-                >
-              </div>
-
-              <div class="input-container">
-                <input
-                  class="input"
-                  data-type="topic"
-                  id="topic"
-                  maxlength="50"
-                  name="topic"
-                  placeholder="Assunto"
-                  required
-                  type="text"
-                />
-                <label for="topic" class="input-label">Assunto</label>
-                <span class="input__message__error"
-                  >Este campo não está válido</span
-                >
-              </div>
-
-              <div class="textarea-container">
-                <textarea
-                  class="textarea"
-                  data-type="message"
-                  cols="40"
-                  id="message"
-                  maxlength="300"
-                  name="message"
-                  placeholder="Mensagem"
-                  rows="5"
-                  required
-                ></textarea>
-                <label for="message" class="textarea-label">Mensagem</label>
-                <span class="textarea__message__error"
-                  >Este campo não está válido</span
-                >
-              </div>
-              <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_next" value="https://matheusbalves.github.io/portfolio/obrigado.html">
-              <button class="send__button" disabled type="submit">Enviar mensagem</button>
-            </form>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="rodape">
-        <p>
-          Desenvolvido por
-          <a href="https://github.com/MatheusBAlves" target="_blank"
-            >Matheus Alves</a
-          >
-        </p>
-        <p>2022</p>
       </div>
-    </footer>
+    </section>
 
-    <script type="module" src="./js/app.js"></script>
-  </body>
+    <section class="hobbies" id="hobbies">
+      <div class="wrapper">
+        <h3 class="hobbies__title">Hobbies</h3>
+        <div class="hobbies__line">
+          <div class="hobbies__box">
+            <ul>
+              <li class="hobbies__img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z" />
+                </svg>
+              </li>
+              <li class="hobbies__name">Ouvir música</li>
+            </ul>
+          </div>
+          <div class="hobbies__box">
+            <ul>
+              <li class="hobbies__img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M64 64V352H576V64H64zM0 64C0 28.7 28.7 0 64 0H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM128 448H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
+                </svg>
+              </li>
+              <li class="hobbies__name">Olhar séries</li>
+            </ul>
+          </div>
+          <div class="hobbies__box">
+            <ul>
+              <li class="hobbies__img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M465 7c-9.4-9.4-24.6-9.4-33.9 0L383 55c-2.4 2.4-4.3 5.3-5.5 8.5l-15.4 41-77.5 77.6c-45.1-29.4-99.3-30.2-131 1.6c-11 11-18 24.6-21.4 39.6c-3.7 16.6-19.1 30.7-36.1 31.6c-25.6 1.3-49.3 10.7-67.3 28.6C-16 328.4-7.6 409.4 47.5 464.5s136.1 63.5 180.9 18.7c17.9-17.9 27.4-41.7 28.6-67.3c.9-17 15-32.3 31.6-36.1c15-3.4 28.6-10.5 39.6-21.4c31.8-31.8 31-85.9 1.6-131l77.6-77.6 41-15.4c3.2-1.2 6.1-3.1 8.5-5.5l48-48c9.4-9.4 9.4-24.6 0-33.9L465 7zM208 352c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48z" />
+                </svg>
+              </li>
+              <li class="hobbies__name">Tocar violão</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="formacao" id="formacao">
+      <div class="wrapper">
+        <h2 class="formacao__title">Formação acadêmica</h2>
+        <div class="formacao__cursos">
+          <div class="formacao__cursos__box">
+            <ul class="formacao__cursos__list">
+              <li class="formacao__cursos__list__img">
+                <img src="./assets/logo-cimol.svg" alt="" />
+              </li>
+              <li class="formacao__cursos__list__title">
+                <h4>Técnico em Eletrônica</h4>
+              </li>
+              <li class="formacao__cursos__list__subtitle">CIMOL - Escola Técnica Estadual Monteiro Lobato</li>
+              <li class="formacao__cursos__list__subtitle">2019 - 2022</li>
+            </ul>
+            <ul class="formacao__cursos__list">
+              <li class="formacao__cursos__list__img">
+                <img src="./assets/unisinos.jpg" alt="" />
+              </li>
+              <li class="formacao__cursos__list__title">
+                <h4>Análise e Desenvolvimento de Sistemas</h4>
+              </li>
+              <li class="formacao__cursos__list__subtitle">Unisinos</li>
+              <li class="formacao__cursos__list__subtitle">2022 - atual</li>
+            </ul>
+          </div>
+
+        </div>
+    </section>
+
+    <section class="badges" id="badges">
+      <div class="wrapper">
+        <h3 class="badges__title">Badges Alura Challenge</h3>
+        <div class="badges__line">
+          <div class="badges__box link">
+            <a href="#challengeConversor">
+              <img src="./assets/images/badges/ConversorDeMoedas.png" class="badges__img">
+              <h3 class="badges__name">Conversor de Moeda e Temperatura</h3>
+            </a>
+          </div>
+          <div class="badges__box link">
+            <a href="#decodificador">
+              <img src="./assets/images/badges/Decodificador.png" class="badges__img">
+              <h3 class="badges__name">Decodificador de Texto</h3>
+            </a>
+          </div>
+          <div class="badges__box link">
+            <a href="#jogoDaForca">
+              <img src="./assets/images/badges/jogo da forca.png" class="badges__img">
+              <h3 class="badges__name">Jogo da Forca</h3>
+            </a>
+          </div>
+          <div class="badges__box">
+            <a>
+              <img src="./assets/images/badges/eCommerce.png" class="badges__img">
+              <h3 class="badges__name">eCommerce</h3>
+            </a>
+          </div>
+          <div class="badges__box">
+            <a>
+              <img src="./assets/images/badges/portfolio.png" class="badges__img">
+              <h3 class="badges__name">Portfólio</h3>
+            </a>
+          </div>
+      </div>
+    </section>
+
+    <section class="experiencias" id="experiencias">
+      <div class="wrapper">
+        <h2 class="experiencia__title">Experiência profissional</h2>
+        <div class="experiencia__projetos">
+          <div class="experiencia__projetos__box">
+            <img src="./assets/images/DoctorCare.png" alt="Doctor Care" class="experiencia__projetos__foto" />
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                DoctorCare
+              </h3>
+              <p class="projetos__informacoes__tecnologias">HTML - CSS - JS</p>
+              <p class="projetos__informacoes__descricao">
+                Curso em Video
+              </p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/doctorcare"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
+                  target="_blank">Repositório</a>
+                <a href="https://matheusbalves.github.io/doctorcare/"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--demo" target="_blank">Ver demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experiencia__projetos__box">
+            <img src="./assets/images/AutomacaoResidencialEsp32.png" alt="Automação residencial"
+              class="experiencia__projetos__foto" />
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                Automação Residencial
+              </h3>
+              <p class="projetos__informacoes__tecnologias">C - HTML - CSS</p>
+              <p class="projetos__informacoes__descricao">
+                com ESP32
+              </p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/AutomacaoResidencialEsp32"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio"
+                  target="_blank">Repositório</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experiencia__projetos__box">
+            <img src="assets/images/ControladorRGBa.png" alt="" class="experiencia__projetos__foto" />
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                Controlador RGBa
+              </h3>
+              <p class="projetos__informacoes__tecnologias">HTML - CSS - JS</p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/LedRGB"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio" target="_blank">
+                  Repositório
+                </a>
+                <a href="https://matheusbalves.github.io/LedRGB/"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--demo" target="_blank">Ver demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experiencia__projetos__box">
+            <img src="assets/images/ProjetoAndroid.png" alt="" class="experiencia__projetos__foto" />
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                Projeto Android
+              </h3>
+              <p class="projetos__informacoes__tecnologias">HTML - CSS</p>
+              <p class="projetos__informacoes__descricao">
+                Curso em Video
+              </p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/projeto-android"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio" target="_blank">
+                  Repositório
+                </a>
+                <a href="https://matheusbalves.github.io/projeto-android/"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--demo" target="_blank">Ver demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experiencia__projetos__box">
+            <img src="assets/images/ProjetoCordel.png" alt="" class="experiencia__projetos__foto" />
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                Projeto Cordel
+              </h3>
+              <p class="projetos__informacoes__tecnologias">HTML - CSS</p>
+              <p class="projetos__informacoes__descricao">
+                Curso em Video
+              </p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/projeto-cordel"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio" target="_blank">
+                  Repositório
+                </a>
+                <a href="https://matheusbalves.github.io/projeto-cordel/"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--demo" target="_blank">Ver demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experiencia__projetos__box">
+            <img src="assets/images/VerificadorDeSenhas.png" alt="" class="experiencia__projetos__foto" />
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                Verificador de Senhas
+              </h3>
+              <p class="projetos__informacoes__tecnologias">HTML - CSS - JS</p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/VerificadorDeSenhasJS"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio" target="_blank">
+                  Repositório
+                </a>
+                <a href="https://matheusbalves.github.io/VerificadorDeSenhasJS/"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--demo" target="_blank">Ver demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experiencia__projetos__box" id="decodificador">
+            <img src="assets/images/DecodificadorDeTexto.png" alt="" class="experiencia__projetos__foto" />
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                Decodificador de texto
+              </h3>
+              <p class="projetos__informacoes__tecnologias">HTML - CSS - JS</p>
+              <p class="projetos__informacoes__descricao">
+                Challenge Alura Decodificador
+              </p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/Challenge-one-decodificador"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio" target="_blank">
+                  Repositório
+                </a>
+                <a href="https://matheusbalves.github.io/Challenge-one-decodificador/"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--demo" target="_blank">Ver demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experiencia__projetos__box" id="jogoDaForca">
+            <img src="assets/images/JogoDaForca.png" alt="" class="experiencia__projetos__foto" />
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                Jogo da Forca
+              </h3>
+              <p class="projetos__informacoes__tecnologias">HTML - CSS - JS</p>
+              <p class="projetos__informacoes__descricao">
+                Challenge Alura Jogo da Forca
+              </p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/Jogo-da-forca"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio" target="_blank">
+                  Repositório
+                </a>
+                <a href="https://matheusbalves.github.io/Jogo-da-forca/"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--demo" target="_blank">Ver demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experiencia__projetos__box" id="challengeConversor">
+              <img src="assets/images/ConversorDeMoedaETemperatura.png" alt="" class="experiencia__projetos__foto" />
+
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                Conversor de Moeda e Temperatura
+              </h3>
+              <p class="projetos__informacoes__tecnologias">Java</p>
+              <p class="projetos__informacoes__descricao">
+                Challenge Alura Conversor de Moeda
+              </p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/ConversorDeMoedas"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio" target="_blank">
+                  Repositório
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experiencia__projetos__box">
+            <img src="./assets/images/BuscadordeCEP.png" alt="" class="experiencia__projetos__foto" />
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                Buscador de CEP
+              </h3>
+              <p class="projetos__informacoes__tecnologias">React</p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/BuscadorDeCEP"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio" target="_blank">
+                  Repositório
+                </a>
+                <a href="https://buscador-de-cep-ecru-three.vercel.app/"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--demo" target="_blank">Ver demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experiencia__projetos__box">
+            <img src="./assets/images/CityWeather.png" alt="" class="experiencia__projetos__foto" />
+            <div class="experiencia__projetos__informacoes">
+              <h3 class="projetos__informacoes__titulo">
+                City Weather
+              </h3>
+              <p class="projetos__informacoes__tecnologias">React</p>
+              <div class="projetos__informacoes__link">
+                <a href="https://github.com/MatheusBAlves/city-weather"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--repositorio" target="_blank">
+                  Repositório
+                </a>
+                <a href="https://matheusbalves.github.io/city-weather/"
+                  class="projetos__informacoes__botao projetos__informacoes__botao--demo" target="_blank">Ver demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <div class="wrapper">
+        <div class="contato--esquerda">
+          <img src="./assets/unsplash_JYGnB9gTCls.svg" alt="" />
+        </div>
+        <div class="contato__text">
+          <h2 class="contato__title">Contato</h2>
+          <h3 class="contato__subtext">Quer entrar em contato comigo?</h3>
+          <h3 class="contato__subtext">
+            Preencha o formulário ao lado e entrarei em contato o mais rápido
+            possível.
+          </h3>
+
+          <form method="POST" action="https://formsubmit.co/matheus.balves@outlook.com" class="contato__form">
+            <div class="input-container">
+              <input class="input" data-type="name" id="name" maxlength="50" name="name" placeholder="Nome" required
+                type="text" />
+              <label for="name" class="input-label">Nome</label>
+              <span class="input__message__error">Este campo não está válido</span>
+            </div>
+
+            <div class="input-container">
+              <input class="input" data-type="email" id="email" name="email" placeholder="Email" required
+                type="email" />
+              <label for="email" class="input-label">Email</label>
+              <span class="input__message__error">Este campo não está válido</span>
+            </div>
+
+            <div class="input-container">
+              <input class="input" data-type="topic" id="topic" maxlength="50" name="topic" placeholder="Assunto"
+                required type="text" />
+              <label for="topic" class="input-label">Assunto</label>
+              <span class="input__message__error">Este campo não está válido</span>
+            </div>
+
+            <div class="textarea-container">
+              <textarea class="textarea" data-type="message" cols="40" id="message" maxlength="300" name="message"
+                placeholder="Mensagem" rows="5" required></textarea>
+              <label for="message" class="textarea-label">Mensagem</label>
+              <span class="textarea__message__error">Este campo não está válido</span>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://matheusbalves.github.io/portfolio/obrigado.html">
+            <button class="send__button" disabled type="submit">Enviar mensagem</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="rodape">
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/MatheusBAlves" target="_blank">Matheus Alves</a>
+      </p>
+      <p>2022</p>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+
 </html>
