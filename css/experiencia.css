@@ -8,14 +8,17 @@
 .experiencia__projetos {
     display: flex;
     flex-direction: column;
-    row-gap: 10rem;
 }
+
+.experiencia__projetos
 
 .experiencia__projetos__box {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 3.5rem;
+
+    padding-top: 10rem;
 }
 
 .experiencia__projetos__box:nth-child(2n){

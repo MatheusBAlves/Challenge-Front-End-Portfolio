@@ -24,3 +24,15 @@ body {
     padding: 6rem 1rem;
     margin: 0 auto;
 }
+
+main section {
+    background: #EAF2FD;
+}
+
+main section.title,
+main section.skills,
+main section.hobbies,
+main section.badges,
+main section.experiencias {
+    background: #F5F5F5;
+}
