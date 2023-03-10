@@ -2,6 +2,10 @@
     width: 50%;
 }
 
+.contato--esquerda img {
+    border-radius: 20px;
+}
+
 .contato .wrapper {
     display: flex;
     justify-content: space-evenly;

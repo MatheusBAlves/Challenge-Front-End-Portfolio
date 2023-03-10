@@ -1,7 +1,36 @@
+:root {
+    --header-height: 64px;
+}
+
+.title, .about, .skills, .hobbies, .formacao, .badges, .experiencias, .contato {
+    margin-top: var(--header-height);
+    padding-top: var(--header-height);
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
+    top: 0;
+}
+
+header.onRoll {
+    background: #979797;
+}
+
+header.onRoll .menu__icon {
+    fill: white;
+}
+
+header.onRoll a{
+    color: white;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: var(--header-height);
 }
 
 .menu.wrapper {
@@ -39,11 +68,15 @@
 .menu__list__item__link {
     font-size: 1.6rem;
     font-weight: 500;
-    
+    transition: .5s border;
+}
+
+.menu__list__item__link.ativo {
+    border-bottom: 2px solid black;
 }
 
 .menu__list__item__link:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid black;
 }
 
 @media (max-width:850px) {

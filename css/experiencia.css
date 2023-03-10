@@ -15,8 +15,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 3.5rem;
-
-    padding-top: 10rem;
+    padding-block: 3rem;
 }
 
 .experiencia__projetos__box:nth-child(2n){
@@ -24,7 +23,8 @@
 }
 
 .experiencia__projetos__foto {
-    width: 65%;
+    width: 45%;
+    border-radius: 50px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     object-fit: scale-down;
 }
@@ -82,6 +82,12 @@
     color: #FFF;
 }
 
+@media (max-width:1024px) {
+    .experiencia__projetos__foto {
+        width: 65%;
+    }
+}
+
 @media (max-width: 840px) {
     .experiencia__projetos__box {
         gap: 1rem;
@@ -97,5 +103,6 @@
 
     .experiencia__projetos__foto {
         width: 100%;
+        border-radius: 0;
     }
 }
